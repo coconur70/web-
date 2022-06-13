@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>포토리뷰 누리면</title>
+</head>
+
+<style type="text/css">
+	
+
+  *{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navibar {
+    overflow: hidden;
+
+}
+
+
+.navibar #logo img{
+    vertical-align: middle; 
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+   
+}
+.navibar #logo{
+    line-height: 60px;
+}
+
+
+
+.navibar #menu{
+    list-style: none;
+    float: left;
+    margin-left: 130px;
+    margin-top:50px;
+
+    
+}
+
+
+.navibar #menu a{
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #545454;
+    font-weight: bolder;
+}
+
+.navibar #menu li{
+    float: left;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.navibar #login {
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    
+}
+
+.navibar #login a{
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: 7px;
+    color:black;
+    margin:10px;
+} 
+
+.navibar #login li{
+    float: right;
+}
+
+.품목이름 p{
+	font-size: 79px;
+	color: black;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+
+.photo {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  overflow:hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.photo-img {
+  height: 100%;
+  width: 100%;
+}
+.photo:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+}
+
+.photo-description-01 {
+  background: white;
+  position: absolute;
+  top: 60%;
+  left: -5px;
+  height: 65%;
+  width: 128%;
+}
+
+
+
+.photo-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10%;
+  left: 20px;
+  overflow:hidden;
+  
+}
+.photo-logo img {
+  height: 120%;
+}
+
+
+.photo-name {
+  position: absolute;
+  color: #424242;
+  font-size: 16px;
+  left: 25px;
+  bottom: 28%;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.photo-description {
+  position: absolute;
+  color: #424242;
+  font-weight: 520;
+  font-size: 12px;
+  top: 75%;
+  left: 30%;
+  right:5%;
+  bottom: 10%;
+}
+
+.photo-botton {
+  position: absolute;
+  color: #E5DFD1;
+  right: 30px;
+  bottom: 5%;
+  padding: 9px 20px;
+  border: 0.9px solid #fff;
+  border-radius: 15px;
+  box-shadow:0 8px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.photo-botton:hover{
+  background-color: #E5DFD1;
+}
+.photo-botton a {
+  color: #424242;
+  text-decoration: none;
+  font-size: 8px;
+}
+
+.detail p1{
+font-size: 4px;
+left: 5%;
+bottom: 95%;
+color: #424242;
+
+}
+
+
+</style>
+<body>
+	<div class="navibar">
+    <a href="index.html" id="logo">
+            <img src="https://i.postimg.cc/9FqXTF29/2022-06-11-3-13-27.png" height="59px" alt="logo">
+        </a>
+    <ul id="menu">
+        <li><a href="뉴 누리면.html">NEW 5%</a></li>
+        <li><a href="#">MADE</a></li>
+        <li><a href="#">치마</a></li>
+        <li><a href="#">바지</a></li>
+        <li><a href="#">아우터</a></li>
+        <li><a href="#">ACC</a></li>
+        <li><a href="#">상의</a></li>
+    </ul>
+
+    <ul id="login">
+        <li><a href="회원가입 누르면.html">로그인</a></li>
+        <li><a href="회원가입 누르면.html">회원가입</a></li>
+    </ul>
+</div>
+
+<div class="품목이름">
+	<p>PHOTO REVIEW</p>
+</div>
+
+	
+
+<div class="photo brand">
+  <img class="photo-img" src="https://i.postimg.cc/7ZN5LbX3/3-1.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://i.postimg.cc/rynps280/2.gif" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>8205 [MADE] 언발롤업 컷팅 진청반바지 (XS~2XL)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 처음에는 반신반의했지만 입어보니까 너무 좋아요~ㅎㅎ </p>
+ 	</div>
+
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/52/image1/25ac71cbb2d8c0ee.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202205/20219f845698b31822f1624e944a3175.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>8044 시스루 크롭 셔츠BL(3color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 생각보다 얇고 시원해서 많이 입고 다닐 것 같아요.. </p>
+ 	</div>
+
+ 
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/55/image1/portrait_7ed1fb2ae2c33e3f.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202205/7fb1aa88108d738537c6c497069e54cb.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>8034 스트링 패턴 반팔 롱원피스 (2color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 딱 제가 생각한 기장 ㅠㅠ 재구매각입니다ㅠㅜㅠㅜ</p>
+ 	</div>
+
+ 	<div class="detail">
+ 		<p1>2022.06.12</p1>
+ 		<p2>h***</p2>
+ 	</div>
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/50/image1/portrait_89e469266c9b83f9.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202202/1e522e82d3a67fad52160f186f0f42f9.gif" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7312 [MADE] 투버튼 그레이 흑청 스키니진(XS~2XL)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 바지 딱맞는거 구하기 힘든데..진짜 너무 마음에 듭니당~</p>
+ 	</div>
+
+ 
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/41/image1/portrait_5bf8902e2c26ffe4.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202205/a477ec6dae56ad5d0754fedc1a68660f.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7949 크롭 브이넥 가디건 긴팔t (4color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 상체가 고민이었는데 이 옷은 생각보다 널널해서 휘뚜루마뚜루 입기 좋은거 같아용~많이 파세요! </p>
+ 	</div>
+
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/21/image1/portrait_a30e7c9bb8fac445.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202205/05e8c235c902573c4a5c11f87fc5cccf.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7981 크롭 U넥 반팔 골지니트 가디건t (6color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 완전 쨍한 레드는 아니구 조금 차분한 레드입니당 </p>
+ 	</div>
+
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/11/image1/portrait_1a4343119e0ab35d.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202203/58ad0c3dc69979fd5040d99aff157d47.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7355 데일리 둥근스퀘어 벨트(4color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 마감처리도 깔끔하고 디자인도 예뻐요! </p>
+ 	</div>
+
+ 
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/09/image1/portrait_d235facd4b60aab0.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/09/image1/portrait_d235facd4b60aab0.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7643 [3기장/S~2XL] 차르르~와이드 롱슬랙스(4color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 체형 커버에 너무 좋아요~ 바지는 여기서 다른 색으로 또 구매하고 싶어요! </p>
+ 	</div>
+
+ 	
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/07/image1/portrait_59a8df0c53ee913e.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202206/562e6bce06cd661a2f2cbd44362b2216.gif" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>8205 [MADE] 언발롤업 컷팅 진청반바지 (XS~2XL)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 생각보다 너무 이뻐요! 완전 하비여서 고민이었는데 잘 맞는거 같아요! </p>
+ 	</div>
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/01/image1/portrait_a3f7a2cfa2cecf63.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202205/d4108fa884194bb17f42e3ae3826db68.jpgf" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7888[SET] 루즈핏 긴팔+ 반바지 트레이닝셋업(3color)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 배송은 좀 느렸지만 디자인 너무 이뻐영</p>
+ 	</div>
+
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/24/86/image1/portrait_c48937682a799908.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202205/61e46c0edb0d868e88b8249a37e6cbb7.jpg" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>8061 와이드 롱일자 핀턱 면바지 (2color/S~XL)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p> 와이드인데다가 면이라서 여름에도 시원하게 입을 것 같네요:)</p>
+ 	</div>
+
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+<div class="photo brand">
+  <img class="photo-img" src="https://assets4.cre.ma/p/ww-habiworld-kr/reviews/00/00/07/25/19/image1/portrait_13fb58b177c307ed.jpg">
+   	<div class="photo-description-01"></div>
+   	<div class="photo-logo">
+   	<img src="https://www.habi-unni.com/web/product/big/202203/4831471c9872ec35f04e10dbb1763af2.gif" >
+   	</div>
+
+ 	<div class="photo-name">
+  	<p>7437[MADE] 롱다리핏 부츠컷 흑청바지(XS~2XL)</p>
+   	</div>
+
+ 	<div class="photo-description">
+    <p>진짜 다리 길어보이고 날씬해보입니다ㅜㅠ인생바지 등극 ㅠㅠ </p>
+ 	</div>
+
+
+    <div class="photo-botton">
+   	<a href="#" target="_blank">Read More</a>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

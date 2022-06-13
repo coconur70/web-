@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        
+
+        *{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navibar {
+    overflow: hidden;
+
+}
+
+
+.navibar #logo img{
+    vertical-align: middle; 
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+   
+}
+.navibar #logo{
+    line-height: 60px;
+}
+
+
+
+.navibar #menu{
+    list-style: none;
+    float: left;
+    margin-left: 130px;
+    margin-top:50px;
+
+    
+}
+
+
+.navibar #menu a{
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #545454;
+    font-weight: bolder;
+}
+
+.navibar #menu li{
+    float: left;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.navibar #login {
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    
+}
+
+.navibar #login a{
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: 7px;
+    color:black;
+    margin:10px;
+} 
+
+.navibar #login li{
+    float: right;
+}
+
+
+.header{
+    margin-top: 150px;
+    display: block;
+    text-align: center;
+
+
+
+
+   }
+
+.header p1{
+    font-size: 20px;
+    font-weight: 200px;
+    display: block;
+
+
+}
+
+.header p2{
+    font-size: 40px;
+    font-weight: 300px;
+    display: block;
+    margin-top: 30px;
+}
+
+.header p3{
+    font-size: 51px;
+    font-weight: : 500px;
+    display: block;
+    margin-top: 30px;
+}
+
+.header p4{
+    font-size: 16px;
+    font-weight: 100px;
+    display: block;
+    margin-top: 50px;
+    background: #F7EEC6;
+    border-radius: 10px;
+    padding: 10px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header p4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro #introimg img{
+    display: block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 21px -12px 12px rgba(0,0,0,0.5); 
+    z-index: 1;
+  
+}
+
+.yellobox{
+    background: #E5DFD1;
+    height: 333px;
+    z-index: 2;
+    margin-top: -210px;
+    
+    
+}
+
+.yellowbox p{
+   color: #E5DFD1;
+
+}
+
+
+.middle p3{
+	text-align: center;
+	font-size: 79px;
+	font-weight: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 16px;
+	display: block;
+
+}
+
+.middle p4{
+	text-align: center;
+	display: block;
+	font-size: 16px;
+	color: #5A5A5A;
+	padding: 10px;
+	
+
+}
+
+.middle p5{
+	text-align: center;
+	font-size: 16px;
+	color: #5A5A5A;
+	display: block;
+	padding: 5px;
+	margin-bottom: 80px;
+}
+
+
+.product h3{
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #545454;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.product-list .product img{
+	border-radius: 22px;
+	box-shadow: 8px 10px 8px rgba(0,0,0,0.5)
+}
+.product{
+    text-align: center;
+    width: 225px;
+    display: block;
+    color: #545454;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.product img:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+}
+
+.product-list{
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-name{
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.product-price{
+	margin-top: 16px;
+	font-size: 16px;
+	margin-bottom: 56px;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
+
+.button{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #F7EEC6;
+    padding: 10px;
+    border-radius: 22px;
+
+}
+.button a{
+    background-color: #F7EEC6;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.part2 {
+	background: #E5DFD1;
+	margin-left: 0;
+	margin-right: 0;
+	display: block;
+
+	z-index: 2;
+	margin-bottom: 200px;
+	height: 1400px;
+	text-align: center;
+
+}
+
+
+.part2 p1{
+	text-align: center;
+	display: block; 
+	font-size: 79px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 56px;
+	z-index: 1;
+	margin-top: 150px;
+}
+
+.part2 p2{
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 59px;
+	margin-bottom: 24px;
+	z-index: 1;
+}
+
+.part2 p3{
+	font-size: 38px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #8F8E8E;
+	z-index: 1;
+	
+}
+.part2 img{
+	
+	height: 700px;
+	vertical-align: middle;
+	margin-top: 170px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	z-index: 2;
+}
+
+.part2 p4{
+    font-size: 22px;
+    font-weight: 100px;
+    display: block;
+    margin-top: 50px;
+    background: #F7EEC6;
+    border-radius: 10px;
+    padding: 10px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.part2 p4 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.unnipick{
+	font-size: 79px;
+	margin-top: 120px;
+	margin-left: 40px;
+	margin-bottom: 124px;
+
+}
+
+.product2{
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 1200px;
+	vertical-align: middle;
+	margin-bottom: 200px;
+
+}
+
+.product2{
+    text-align: center;
+    width: 357px;
+    display: block;
+    color: #545454;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+}
+
+.product-list2{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product2 img {
+	width: 357px;
+	border-radius: 22px;
+	box-shadow: 8px 10px 8px rgba(0,0,0,0.2)
+}
+
+.pickcolor img{
+	width: 60px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+
+}
+
+.pickcolor2 img{
+	width: 20px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+
+}
+
+.pickcolor3 img {
+	width: 30px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+}
+
+
+
+
+.photoreview {
+	display: block;
+	margin-left: 40px;
+	width: 20%;
+	float: left;
+	margin-bottom: 100px;
+	z-index: 1;
+
+	
+}
+
+.detail {
+	margin-top: -500px;
+	margin-left: 700px;
+	display: block;
+	z-index: 1;
+    float: left;
+}
+
+
+.detail p1{
+	font-size: 96px;
+	font-weight: 900px;
+	display: block;
+	margin-bottom: 70px;
+	z-index: 1;
+}
+
+
+.detail p2{
+	font-size: 30px;
+	font-weight: 600px;
+	display: block;
+	margin-bottom: 50px;
+	z-index: 1;
+}
+
+.detail a{
+	font-size: 15px;
+	font-weight: 300px;
+	display: block;
+	background: #E4E1E1;
+	border-radius: 22px;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+    z-index: 1;
+    margin-top: 30px;
+    margin-left: 270px;
+    text-decoration: none;
+    color: black;
+
+}
+.photo{
+	background: #E5DFD1;
+
+}
+
+
+.bottom img{
+	float: left;
+	margin-left: 40px;
+	width: 200px;
+	margin-top: -90px;
+}
+
+.bottombox{
+	background: black;
+	height: 180px;
+	margin-top: 1900px;
+	display: block;
+}
+
+
+.bottombox #final li{
+
+	color: white;
+	margin-left: 100px;
+	padding: 16px;
+	list-style: none;
+	
+	display: block;
+	width: 700px;
+
+}
+
+
+
+.footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+
+    </style>
+</head>
+<body>
+<div class="navibar">
+    <a href="index.html" id="logo">
+            <img src="https://i.postimg.cc/9FqXTF29/2022-06-11-3-13-27.png" height="59px" alt="logo">
+        </a>
+    <ul id="menu">
+        <li><a href="뉴 누리면.html">NEW 5%</a></li>
+        <li><a href="#">MADE</a></li>
+        <li><a href="#">치마</a></li>
+        <li><a href="#">바지</a></li>
+        <li><a href="#">아우터</a></li>
+        <li><a href="#">ACC</a></li>
+        <li><a href="#">상의</a></li>
+    </ul>
+
+    <ul id="login">
+        <li><a href="회원가입 누르면.html">로그인</a></li>
+        <li><a href="회원가입 누르면.html">회원가입</a></li>
+    </ul>
+</div>
+
+
+<div class="header">
+        <p1>아직도 안입어 봤어?</p1>
+        <p2>Hip_하게 입자</p2>
+        <p3>5kg는 빠져 보이는 핏</p3>
+        <p4><a href="#">더 알아보기</a></p4>
+</div>
+
+<div class="intro">
+    <a href="#" id="introimg">
+        <img src="https://i.postimg.cc/h45prhDS/80a20848-e129-4de6-b7df-27314429bf46.jpg" height="585px" alt="introimage">
+    </a>
+</div>
+
+
+
+<div class="yellobox">
+    <p>.</p>
+</div>
+
+<div class="middle">
+        <p3>NEW 5%</p3>
+        <p4>당일 업데이트 시점부터 다음날 23시 까지 할인!</p4>
+        <p5>(목요일 업뎃 상품은 당일 23:55까지 적용)</p5>
+</div>
+
+<div class="product-list">
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/h49HZ9YS/1.gif" width="225px" alt="sunglasses">
+        <div class="product-name">8204 [MADE] 코튼면 핀턱 와이드 반바지 (2 colors/S~L)</div>
+        <div class="product-price">25,700원</div>
+
+    </a>
+
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/rynps280/2.gif" width="225px" alt="tassel-loafer">
+        <div class="product-name">8205 [MADE] 언발롤업 컷팅 진청반바지 (XS~2XL)</div>
+        <div class="product-price">33,700원</div>
+    </a>
+
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/XvbjmVgh/3.gif" width="225px" alt="beige-bag">
+        <div class="product-name">8202 하이틴, 배색 플레어 미니스커트(3color)</div>
+        <div class="product-price">42,700원</div>
+    </a>
+</div>
+
+<div class="product-list">
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/d3LwrDq7/4.gif" width="225px" alt="sneakers">
+        <div class="product-name">8201 하이틴, 배색 자수 꽈배기 반팔니트 가디건t (3color)</div>
+        <div class="product-price">46,400원</div>
+    </a>
+
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/44SJZv5p/5.gif" width="225px" alt="slippers">
+        <div class="product-name">8186 데일리 라운드 숄더백 (3color)</div>
+        <div class="product-price">33,700원</div>
+    </a>
+
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/hjGBRhQC/6.gif" width="225px" alt="wrist-watch">
+        <div class="product-name">8185 연청 언발컷팅 숏 찢청반바지(S~L)</div>
+        <div class="product-price">25,700원</div>
+    </a>
+</div>
+
+<div class="product-list">
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/yxM4RPQ5/7.gif" width="225px" alt="fedora-hat">
+        <div class="product-name">8181 벨트set 반팔 제캇 미니원피스 (2color)</div>
+        <div class="product-price">78,700원</div>
+    </a>
+
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/q7Jf2gwk/8.gif" width="225px" alt="classic-loafer">
+        <div class="product-name">8180 꾸안꾸 단가라 발팔 롱원피스(4color)</div>
+        <div class="product-price">17,700원</div>
+    </a>
+
+    <a href="#" class="product">
+        <img src="https://i.postimg.cc/L5ZGmP9V/9.gif" width="225px" alt="/pink-bag">
+        <div class="product-name">8182 폴리츠 반팔 미디원피스(2color)</div>
+        <div class="product-price">46,600원</div>
+    </a>
+    <div class="clearfix"></div>
+</div>
+
+<div class="button">
+    <a href="뉴 누리면.html">더보기</a>
+
+</div>
+
+<div class="part2">
+	<p1>Habiunni TV</p1>
+	<p2>68kg 통통녀 여름 코디 룩북</p2>
+	<p3>#66사이즈   #통통녀    #룩북</p3>
+	<a href="https://www.youtube.com/watch?v=oI6XGLQrJB0"><img src="https://i.postimg.cc/qBYnZ5NK/2022-06-12-6-58-26.png" alt="video1"></a>
+	<p4><a href="https://www.youtube.com/channel/UCXcUfAV9np9bCgEbUpD0Cmw?view_as=subscriber">See more</a></p4>
+
+</div>
+
+<div class="unnipick">
+<p1>하비언니 pick!</p1>
+</div>
+
+<div class="product-list2">
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/kD38NpHr/1-1.gif"  alt="sunglasses">
+        <div class="product-name">8206 입술넥 루즈핏 니트긴팔t(5color)</div>
+        <div class="product-price">27,700원 </div>
+        <div class="pickcolor">
+        	<img src="https://i.postimg.cc/0QLjwJ6r/2022-06-12-10-30-51.png">
+        </div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/rynps280/2.gif" alt="tassel-loafer">
+        <div class="product-name">8205 [MADE] 언발롤업 컷팅 진청반바지 (XS~2XL)</div>
+        <div class="product-price">33,700원</div>
+        <div class="pickcolor2">
+        	<img src="https://i.postimg.cc/NjwXnZjL/2022-06-12-10-31-06.png">
+        </div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/h49HZ9YS/1.gif"  alt="beige-bag">
+        <div class="product-name">8204 [MADE] 코튼면 핀턱 와이드 반바지 (2color/S~L)</div>
+        <div class="product-price">25,700원</div>
+        <div class="pickcolor3">
+        	<img src="https://i.postimg.cc/J4XJPRm9/2022-06-12-10-31-22.png">
+        </div>
+    </a>
+
+    
+</div>
+
+
+<div class="photoreview">
+	
+	<a href="http://skin-skin16.mmmmj22.cafe24.com/board/product/list.html?board_no=4"><img src="https://i.postimg.cc/kgxryRBL/portrait-13fb58b177c307ed.jpg" width="518px"></a>
+</div>
+
+<div class="detail">
+	<p1>PHOTO REVIEW</p1>
+	<p2>고객님들의 리얼솔직한 후기!</p2>
+	<a href="포토리뷰 누르면.html">더보기</a>
+</div>
+
+
+<div class="bottom">
+	<div class="bottom logo"><img src="https://i.postimg.cc/9FqXTF29/2022-06-11-3-13-27.png"></div>
+	<div class="bottombox">
+		<ul id="final">
+			<li>회사 소개 ㅣ COMPANY ㅣ OWNER ㅣ MAIL</li>
+			<li>상담시간 ㅣ 1688-7416 ㅣ 11시-17시 ㅣ 토,일 공휴일 휴무</li>
+			<li>BANK INFO ㅣ 우리 1002-356-018224</li>
+		</ul>
+
+		
+	</div>
+
+
+
+
+</div>
+
+<div class="footer">
+    
+    <a href="https://www.instagram.com/m_mmmj22/?hl=ko">
+        <img src="https://i.postimg.cc/nMf8W6SH/instagram.png" height="40px" alt="">
+    </a>
+    <a href="https://www.youtube.com/channel/UCXcUfAV9np9bCgEbUpD0Cmw">
+        <img src="https://i.postimg.cc/Gpxpxj28/video.png" height="40px" alt="">
+    </a>
+</div>
+
+
+
+
+
+</body>
+</html>

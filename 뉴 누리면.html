@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>뉴 누르면</title>
+</head>
+
+<style type="text/css">
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+.navibar {
+    overflow: hidden;
+
+}
+
+
+.navibar #logo img{
+    vertical-align: middle; 
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+   
+}
+.navibar #logo{
+    line-height: 60px;
+}
+
+
+
+.navibar #menu{
+    list-style: none;
+    float: left;
+    margin-left: 130px;
+    margin-top:50px;
+
+    
+}
+
+
+.navibar #menu a{
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #545454;
+    font-weight: bolder;
+}
+
+.navibar #menu li{
+    float: left;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.navibar #login {
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    
+}
+
+.navibar #login a{
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: 7px;
+    color:black;
+    margin:10px;
+} 
+
+.navibar #login li{
+    float: right;
+}
+
+.품목이름 p{
+	font-size: 79px;
+	color: black;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+	
+
+.product2{
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 1200px;
+	vertical-align: middle;
+	margin-bottom: 200px;
+
+}
+
+.product2{
+    text-align: center;
+    width: 357px;
+    display: block;
+    color: #545454;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+
+.product-list2{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.product2 img {
+	width: 357px;
+	border-radius: 22px;
+	box-shadow: 8px 10px 8px rgba(0,0,0,0.2)
+}
+.product-name {
+	margin-top: 40px;
+}
+
+.pickcolor img{
+	width: 60px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor2 img{
+	width: 20px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor3 img {
+	width: 30px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+}
+
+.pickcolor4 img {
+	width: 40px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+.pickcolor5 img {
+	width: 40px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+.pickcolor6 img {
+	width: 40px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+.pickcolor7 img {
+	width: 40px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor8 img {
+	width: 50px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor9 img {
+	width: 50px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor10 img {
+	width: 50px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor11 img {
+	width: 20px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.pickcolor12 img {
+	width: 50px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	margin-top: 10px;
+
+}
+
+.detail1{
+	color: #780A0A;
+	font-size: 12px;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+.detail2{
+	color: #783F0A;
+	font-size: 15px;
+	float: right;
+	margin-top: 10px;
+}
+
+
+</style>
+
+
+<body>
+<div class="navibar">
+    <a href="index.html" id="logo">
+            <img src="https://i.postimg.cc/9FqXTF29/2022-06-11-3-13-27.png" height="59px" alt="logo">
+        </a>
+    <ul id="menu">
+        <li><a href="뉴 누리면.html">NEW 5%</a></li>
+        <li><a href="#">MADE</a></li>
+        <li><a href="#">치마</a></li>
+        <li><a href="#">바지</a></li>
+        <li><a href="#">아우터</a></li>
+        <li><a href="#">ACC</a></li>
+        <li><a href="#">상의</a></li>
+    </ul>
+
+    <ul id="login">
+        <li><a href="회원가입 누르면.html">로그인</a></li>
+        <li><a href="회원가입 누르면.html">회원가입</a></li>
+    </ul>
+</div>
+
+<div class="품목이름">
+	<p>NEW 5%</p>
+</div>
+
+
+<div class="product-list2">
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/kD38NpHr/1-1.gif"  alt="sunglasses">
+        <div class="product-name">8206 입술넥 루즈핏 니트긴팔t(5color)</div>
+        <div class="product-price">27,700원 </div>
+        <div class="pickcolor">
+        	<img src="https://i.postimg.cc/0QLjwJ6r/2022-06-12-10-30-51.png">
+        </div>
+
+        <div class="detail1"> *품절 항목은 6월 말에 입고 예정!</div>
+        <div class="detail2">리뷰 : 7건</div>
+        
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/rynps280/2.gif" alt="tassel-loafer">
+        <div class="product-name">8205 [MADE] 언발롤업 컷팅 진청반바지 (XS~2XL)</div>
+        <div class="product-price">33,700원</div>
+        <div class="pickcolor2">
+        	<img src="https://i.postimg.cc/NjwXnZjL/2022-06-12-10-31-06.png">
+        </div>
+
+        <div class="detail1"> 실시간 주문 1위!</div>
+        <div class="detail2">리뷰 : 11건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/h49HZ9YS/1.gif"  alt="beige-bag">
+        <div class="product-name">8204 [MADE] 코튼면 핀턱 와이드 반바지 (2color/S~L)</div>
+        <div class="product-price">25,700원</div>
+        <div class="pickcolor3">
+        	<img src="https://i.postimg.cc/J4XJPRm9/2022-06-12-10-31-22.png">
+        </div>
+
+        <div class="detail1"> 실시간 주문 2위!</div>
+        <div class="detail2">리뷰 : 3건</div>
+    </a>
+
+    
+</div>
+
+
+<div class="product-list2">
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/DfX4GNHC/2-4.gif"  alt="sunglasses">
+        <div class="product-name">8194 데일리 핀턱 와이드 면반바지(3color/S~M)</div>
+        <div class="product-price">35,800원 </div>
+        <div class="pickcolor4">
+        	<img src="https://i.postimg.cc/ZqtMT2G1/2022-06-13-1-18-01.png">
+        </div>
+
+        <div class="detail1"> *품절 항목은 6월 말에 입고 예정!</div>
+        <div class="detail2">리뷰 : 9건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/tCd1SxXW/2-5.gif" alt="tassel-loafer">
+        <div class="product-name">8193 린넨 자수 루즈핏 셔츠</div>
+        <div class="product-price">47,800원</div>
+        <div class="pickcolor5">
+        	<img src="https://i.postimg.cc/SRsZTh9z/2022-06-13-1-17-53.png">
+        </div>
+
+        <div class="detail1"> 실시간 주문 3위!</div>
+        <div class="detail2">리뷰 : 2건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/rs1pPBLM/2-6.gif"  alt="beige-bag">
+        <div class="product-name">8192 핀턱 와이드 반바지(3color/S~M)</div>
+        <div class="product-price">36,700원</div>
+        <div class="pickcolor6">
+        	<img src="https://i.postimg.cc/tCbQ51SK/2022-06-13-1-08-16.png">
+        </div>
+
+        <div class="detail1">지금 바로 주문하세요! </div>
+        <div class="detail2">리뷰 : 1건</div>
+    </a>
+
+    
+</div>
+
+
+<div class="product-list2">
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/rp4kz4Fz/2-10.gif"  alt="sunglasses">
+        <div class="product-name">8178 린넨 루즈핏 후드 가디건jk(3color)</div>
+        <div class="product-price">32,700원 </div>
+        <div class="pickcolor10">
+        	<img src="https://i.postimg.cc/0QLjwJ6r/2022-06-12-10-30-51.png">
+        </div>
+
+        <div class="detail1"> 회원 구매시 할인 혜택이!</div>
+        <div class="detail2">리뷰 : 0건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/pTttjdpC/2-11.gif" alt="tassel-loafer">
+        <div class="product-name">8177 루즈핏 린넨 U넥 나시t(4color)</div>
+        <div class="product-price">15,400원</div>
+        <div class="pickcolor11">
+        	<img src="https://i.postimg.cc/NjwXnZjL/2022-06-12-10-31-06.png">
+        </div>
+
+        <div class="detail1"> 곧 품절</div>
+        <div class="detail2">리뷰 : 2건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/nzYfGtmJ/2-12.gif"  alt="beige-bag">
+        <div class="product-name">8184 뒷트임 슬릿 크롭 무지반팔t(4color)</div>
+        <div class="product-price">17,400원</div>
+        <div class="pickcolor12">
+        	<img src="https://i.postimg.cc/zGSngQbm/2022-06-13-1-18-19.png">
+        </div>
+
+        <div class="detail1">인기상품 3위 </div>
+        <div class="detail2">리뷰 : 9건</div>
+    </a>
+
+    
+</div>
+
+
+<div class="product-list2">
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/SRTsWWLp/2-1.gif"  alt="sunglasses">
+        <div class="product-name">8198 벨트 코튼면 롱스커트(3color/S~L)</div>
+        <div class="product-price">36,700원 </div>
+        <div class="pickcolor7">
+        	<img src="https://i.postimg.cc/tCbQ51SK/2022-06-13-1-08-16.png">
+        </div>
+
+        <div class="detail1"> 인기상품 5위</div>
+        <div class="detail2">리뷰 : 4건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/KvWjjDvP/2-2.gif" alt="tassel-loafer">
+        <div class="product-name">8197 스트라이프 오버핏 얇은 셔츠NB(2color)</div>
+        <div class="product-price">19,900원</div>
+        <div class="pickcolor8">
+        	<img src="https://i.postimg.cc/cJgbZZk7/2022-06-13-1-08-08.png">
+        </div>
+
+        <div class="detail1"> 인기상품 6위</div>
+        <div class="detail2">리뷰 : 17건</div>
+    </a>
+
+    <a href="#" class="product2">
+        <img src="https://i.postimg.cc/d02VWMR6/2-3.gif"  alt="beige-bag">
+        <div class="product-name">8204 [MADE] 코튼면 핀턱 와이드 반바지 (2color/S~L)</div>
+        <div class="product-price">25,700원</div>
+        <div class="pickcolor9">
+        	<img src="https://i.postimg.cc/zGSngQbm/2022-06-13-1-18-19.png">
+        </div>
+
+        <div class="detail1"> *품절 항목은 7월 말에 입고 예정!</div>
+        <div class="detail2">리뷰 : 22건</div>
+    </a>
+
+    
+</div>
+
+</body>
+</html>
